@@ -1,2 +1,2 @@
 # Seaspray-Transformers-applied-to-CAPTCHA-cloaked-phishing-websites
-Sapienza University of Rome - Data Network &amp; Security 2024/25/2 - Exam Report
+Seaspray is an end-to-end system designed to counter CAPTCHA cloaking, a technique used by phishers to hide malicious content from automated detection. Building on approaches like Crawl-shing, Seaspray first identifies suspicious sites, detects CAPTCHAs using YOLO, and classifies and solves them with a Vision Transformer to reveal hidden content. It then verifies brand legitimacy via logo detection with YOLO and visual embeddings using a ViT encoder, matched against known brands. By unifying CAPTCHA de-cloaking and brand verification within a Transformer-based framework, Seaspray offers a modular and robust solution.
